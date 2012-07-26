@@ -75,9 +75,9 @@
 			children = (
 				FF26036415C0F9B60029F0CC /* NTAppDelegate.h */,
 				FF26036515C0F9B60029F0CC /* NTAppDelegate.m */,
-				FF26036715C0F9B60029F0CC /* MainStoryboard.storyboard */,
 				FF26036A15C0F9B60029F0CC /* NTViewController.h */,
 				FF26036B15C0F9B60029F0CC /* NTViewController.m */,
+				FF26036715C0F9B60029F0CC /* MainStoryboard.storyboard */,
 				FF26035C15C0F9B60029F0CC /* Supporting Files */,
 				FF26035415C0F9B60029F0CC /* Frameworks */,
 				FF26035215C0F9B60029F0CC /* Products */,

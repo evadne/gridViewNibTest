@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AQGridView.h"
 
-@interface NTViewController : UIViewController
+
+@interface NTViewController : UIViewController <AQGridViewDataSource, AQGridViewDelegate>
 
 @end
