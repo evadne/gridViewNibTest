@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF26035615C0F9B60029F0CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF26035515C0F9B60029F0CC /* UIKit.framework */; };
+		FF26035815C0F9B60029F0CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF26035715C0F9B60029F0CC /* Foundation.framework */; };
+		FF26035A15C0F9B60029F0CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF26035915C0F9B60029F0CC /* CoreGraphics.framework */; };
+		FF26036015C0F9B60029F0CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF26035E15C0F9B60029F0CC /* InfoPlist.strings */; };
+		FF26036215C0F9B60029F0CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF26036115C0F9B60029F0CC /* main.m */; };
+		FF26036615C0F9B60029F0CC /* NTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF26036515C0F9B60029F0CC /* NTAppDelegate.m */; };
+		FF26036915C0F9B60029F0CC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF26036715C0F9B60029F0CC /* MainStoryboard.storyboard */; };
+		FF26036C15C0F9B60029F0CC /* NTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF26036B15C0F9B60029F0CC /* NTViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF26035115C0F9B60029F0CC /* gridViewNibTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gridViewNibTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF26035515C0F9B60029F0CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF26035715C0F9B60029F0CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF26035915C0F9B60029F0CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF26035D15C0F9B60029F0CC /* gridViewNibTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gridViewNibTest-Info.plist"; sourceTree = "<group>"; };
+		FF26035F15C0F9B60029F0CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF26036115C0F9B60029F0CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF26036315C0F9B60029F0CC /* gridViewNibTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gridViewNibTest-Prefix.pch"; sourceTree = "<group>"; };
+		FF26036415C0F9B60029F0CC /* NTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTAppDelegate.h; sourceTree = "<group>"; };
+		FF26036515C0F9B60029F0CC /* NTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTAppDelegate.m; sourceTree = "<group>"; };
+		FF26036815C0F9B60029F0CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FF26036A15C0F9B60029F0CC /* NTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTViewController.h; sourceTree = "<group>"; };
+		FF26036B15C0F9B60029F0CC /* NTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF26034E15C0F9B60029F0CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF26035615C0F9B60029F0CC /* UIKit.framework in Frameworks */,
+				FF26035815C0F9B60029F0CC /* Foundation.framework in Frameworks */,
+				FF26035A15C0F9B60029F0CC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF26034615C0F9B60029F0CC = {
+			isa = PBXGroup;
+			children = (
+				FF26035B15C0F9B60029F0CC /* gridViewNibTest */,
+				FF26035415C0F9B60029F0CC /* Frameworks */,
+				FF26035215C0F9B60029F0CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF26035215C0F9B60029F0CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF26035115C0F9B60029F0CC /* gridViewNibTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF26035415C0F9B60029F0CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF26035515C0F9B60029F0CC /* UIKit.framework */,
+				FF26035715C0F9B60029F0CC /* Foundation.framework */,
+				FF26035915C0F9B60029F0CC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF26035B15C0F9B60029F0CC /* gridViewNibTest */ = {
+			isa = PBXGroup;
+			children = (
+				FF26036415C0F9B60029F0CC /* NTAppDelegate.h */,
+				FF26036515C0F9B60029F0CC /* NTAppDelegate.m */,
+				FF26036715C0F9B60029F0CC /* MainStoryboard.storyboard */,
+				FF26036A15C0F9B60029F0CC /* NTViewController.h */,
+				FF26036B15C0F9B60029F0CC /* NTViewController.m */,
+				FF26035C15C0F9B60029F0CC /* Supporting Files */,
+			);
+			path = gridViewNibTest;
+			sourceTree = "<group>";
+		};
+		FF26035C15C0F9B60029F0CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF26035D15C0F9B60029F0CC /* gridViewNibTest-Info.plist */,
+				FF26035E15C0F9B60029F0CC /* InfoPlist.strings */,
+				FF26036115C0F9B60029F0CC /* main.m */,
+				FF26036315C0F9B60029F0CC /* gridViewNibTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF26035015C0F9B60029F0CC /* gridViewNibTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF26036F15C0F9B60029F0CC /* Build configuration list for PBXNativeTarget "gridViewNibTest" */;
+			buildPhases = (
+				FF26034D15C0F9B60029F0CC /* Sources */,
+				FF26034E15C0F9B60029F0CC /* Frameworks */,
+				FF26034F15C0F9B60029F0CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gridViewNibTest;
+			productName = gridViewNibTest;
+			productReference = FF26035115C0F9B60029F0CC /* gridViewNibTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF26034815C0F9B60029F0CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NT;
+				ORGANIZATIONNAME = "Iridia Productions";
+			};
+			buildConfigurationList = FF26034B15C0F9B60029F0CC /* Build configuration list for PBXProject "gridViewNibTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF26034615C0F9B60029F0CC;
+			productRefGroup = FF26035215C0F9B60029F0CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF26035015C0F9B60029F0CC /* gridViewNibTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF26034F15C0F9B60029F0CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF26036015C0F9B60029F0CC /* InfoPlist.strings in Resources */,
+				FF26036915C0F9B60029F0CC /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF26034D15C0F9B60029F0CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF26036215C0F9B60029F0CC /* main.m in Sources */,
+				FF26036615C0F9B60029F0CC /* NTAppDelegate.m in Sources */,
+				FF26036C15C0F9B60029F0CC /* NTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF26035E15C0F9B60029F0CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF26035F15C0F9B60029F0CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FF26036715C0F9B60029F0CC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF26036815C0F9B60029F0CC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF26036D15C0F9B60029F0CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF26036E15C0F9B60029F0CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF26037015C0F9B60029F0CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gridViewNibTest/gridViewNibTest-Prefix.pch";
+				INFOPLIST_FILE = "gridViewNibTest/gridViewNibTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF26037115C0F9B60029F0CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gridViewNibTest/gridViewNibTest-Prefix.pch";
+				INFOPLIST_FILE = "gridViewNibTest/gridViewNibTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF26034B15C0F9B60029F0CC /* Build configuration list for PBXProject "gridViewNibTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF26036D15C0F9B60029F0CC /* Debug */,
+				FF26036E15C0F9B60029F0CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF26036F15C0F9B60029F0CC /* Build configuration list for PBXNativeTarget "gridViewNibTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF26037015C0F9B60029F0CC /* Debug */,
+				FF26037115C0F9B60029F0CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF26034815C0F9B60029F0CC /* Project object */;
+}
