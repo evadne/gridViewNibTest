@@ -7,6 +7,7 @@
 //
 
 #import "NTViewController.h"
+#import "NTGridViewCell.h"
 
 
 @interface NTViewController ()
@@ -51,7 +52,10 @@
 - (AQGridViewCell *) gridView:(AQGridView *)gridView cellForItemAtIndex:(NSUInteger)index {
 
 	static NSString * const identifier = @"Cell";
-	AQGridViewCell *cell = [gridView dequeueReusableCellWithIdentifier:identifier];
+	NTGridViewCell *cell = (NTGridViewCell *)[gridView dequeueReusableCellWithIdentifier:identifier];
+	
+	if (cell)
+		NSCParameterAssert([cell isKindOfClass:[NTGridViewCell class]]);
 	
 	if (!cell) {
 	
@@ -60,8 +64,12 @@
 			gridView.gridCellSize
 		};
 		
-		cell = [[AQGridViewCell alloc] initWithFrame:cellFrame reuseIdentifier:identifier];
-		cell.contentView.backgroundColor = [UIColor redColor];
+		cell = [NTGridViewCell cellFromNib];
+		cell.reuseIdentifier = identifier;
+		cell.frame = cellFrame;
+		
+		//	cell = [[AQGridViewCell alloc] initWithFrame:cellFrame reuseIdentifier:identifier];
+		//	cell.contentView.backgroundColor = [UIColor redColor];
 	
 	}
 

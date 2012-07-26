@@ -17,6 +17,8 @@
 		FF26036915C0F9B60029F0CC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF26036715C0F9B60029F0CC /* MainStoryboard.storyboard */; };
 		FF26036C15C0F9B60029F0CC /* NTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF26036B15C0F9B60029F0CC /* NTViewController.m */; };
 		FF26038215C0FA9A0029F0CC /* libAQGridView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF26037F15C0FA7F0029F0CC /* libAQGridView.a */; };
+		FF27D1E015C0FE3B0097006D /* NTGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF27D1DF15C0FE3B0097006D /* NTGridViewCell.m */; };
+		FF27D1E215C0FE490097006D /* NTGridViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF27D1E115C0FE490097006D /* NTGridViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,9 @@
 		FF26036A15C0F9B60029F0CC /* NTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NTViewController.h; path = gridViewNibTest/NTViewController.h; sourceTree = "<group>"; };
 		FF26036B15C0F9B60029F0CC /* NTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NTViewController.m; path = gridViewNibTest/NTViewController.m; sourceTree = "<group>"; };
 		FF26037715C0FA7F0029F0CC /* AQGridView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AQGridView.xcodeproj; path = AQGridView/AQGridView.xcodeproj; sourceTree = "<group>"; };
+		FF27D1DE15C0FE3B0097006D /* NTGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NTGridViewCell.h; path = gridViewNibTest/NTGridViewCell.h; sourceTree = "<group>"; };
+		FF27D1DF15C0FE3B0097006D /* NTGridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NTGridViewCell.m; path = gridViewNibTest/NTGridViewCell.m; sourceTree = "<group>"; };
+		FF27D1E115C0FE490097006D /* NTGridViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NTGridViewCell.xib; path = gridViewNibTest/NTGridViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,9 @@
 				FF26036515C0F9B60029F0CC /* NTAppDelegate.m */,
 				FF26036A15C0F9B60029F0CC /* NTViewController.h */,
 				FF26036B15C0F9B60029F0CC /* NTViewController.m */,
+				FF27D1DE15C0FE3B0097006D /* NTGridViewCell.h */,
+				FF27D1DF15C0FE3B0097006D /* NTGridViewCell.m */,
+				FF27D1E115C0FE490097006D /* NTGridViewCell.xib */,
 				FF26036715C0F9B60029F0CC /* MainStoryboard.storyboard */,
 				FF26035C15C0F9B60029F0CC /* Supporting Files */,
 				FF26035415C0F9B60029F0CC /* Frameworks */,
@@ -194,6 +202,7 @@
 			files = (
 				FF26036015C0F9B60029F0CC /* InfoPlist.strings in Resources */,
 				FF26036915C0F9B60029F0CC /* MainStoryboard.storyboard in Resources */,
+				FF27D1E215C0FE490097006D /* NTGridViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +216,7 @@
 				FF26036215C0F9B60029F0CC /* main.m in Sources */,
 				FF26036615C0F9B60029F0CC /* NTAppDelegate.m in Sources */,
 				FF26036C15C0F9B60029F0CC /* NTViewController.m in Sources */,
+				FF27D1E015C0FE3B0097006D /* NTGridViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
