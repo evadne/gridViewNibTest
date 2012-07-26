@@ -7,6 +7,7 @@
 //
 
 #import "NTViewController.h"
+#import "AQGridView.h"
 
 @interface NTViewController ()
 
